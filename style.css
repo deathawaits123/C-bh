@@ -1,0 +1,65 @@
+body {
+    font-family: "Arial", sans-serif;
+    direction: rtl;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+  }
+  
+  th {
+    background-color: #ECECEC;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="number"] {
+    padding: 8px;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  h1, h2 {
+    color: #333333;
+  }
+  
+  #motivation {
+    margin-bottom: 20px;
+  }
+  
+  #quoteList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #quoteList li {
+    margin-bottom: 10px;
+  }
+  
+  #semesterGPA, #cumulativeGPA {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* يمكنك إضافة أي تنسيقات إضافية هنا */
+
+  footer{
+
+    text-align: center;
+  }

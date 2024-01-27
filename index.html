@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Mahmood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+ 
+    <header>
+        <h1>مرحبًا بك في موقع حساب المعدل</h1>
+    </header>
+  
+    <section id="motivation">
+      <h2>عبارات التحفيز والمقولات:</h2>
+      <ul id="quoteList"></ul>
+      <button onclick="showRandomQuote()">عرض عبارة تحفيزية</button>
+    </section>
+    
+    <section id="gpaCalculator">
+      <h1>حاسبة المعدل الفصلي</h1>
+      <table>
+        <tr>
+          <th>المادة</th>
+          <th>عدد الساعات</th>
+          <th>الدرجة</th>
+        </tr>
+        <tr>
+          <td><input type="text" name="subject[]" placeholder="اسم المادة"></td>
+          <td><input type="number" name="hours[]" placeholder="عدد الساعات"></td>
+          <td><input type="number" name="grade[]" placeholder="الدرجة"></td>
+        </tr>
+        <!-- يمكنك إضافة صفوف إضافية هنا حسب الحاجة -->
+      </table>
+      <button onclick="addSubject()">إضافة مادة</button>
+      <button onclick="calculateGPA()">احسب المعدل الفصلي</button>
+      <h2>المعدل الفصلي: <span id="semesterGPA"></span></h2>
+      <h2>المعدل التراكمي: <span id="cumulativeGPA"></span></h2>
+    </section>
+
+    <footer>By @4z7m</footer>
+    <script src="script.js"></script>
+</body>
+</html>
